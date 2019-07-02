@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/cz67998/mySpringCloudRepository.git
+          username: 413874736@qq.com
+          password: wz121084
+          basedir: /usr/basedir
+  rabbitmq:
+    host: 134.175.140.187
+    username: guest
+    password: guest
+    port: 5672
+eureka:
+  client:
+    service-url:
+       defaultZone: http://47.107.151.66:8761/eureka/,http://47.107.151.66:8762/eureka/
+       #服务以ip注册
+  instance:
+    prefer-ip-address: true
+management:
+  endpoints:
+    web:
+      exposure:
+         include: "*"
+         #对外暴露出bus-refresh接口   也可以改为"*"来暴露所有接口
+server:
+  port:  8081
+

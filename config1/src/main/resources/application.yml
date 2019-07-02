@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/wangzhou666666/mySpringCloudConfig-repository
+          username: 413874736@qq.com
+          password: wz18118267998
+          basedir: D:\Users\Administrator\Desktop\springcloud 学习\myspringCloud\config\basedir
+
+eureka:
+  client:
+    service-url:
+       defaultZone: http://127.0.0.1:8761/eureka/
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#         include: "*"  #对外暴露出bus-refresh接口   也可以改为"*"来暴露所有接口
+
+

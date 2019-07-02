@@ -1,0 +1,18 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka1:8761/eureka/
+#  server不自己注册自己
+    register-with-eureka: false
+  server:
+# 默认true,false指关闭调试模式
+    enable-self-preservation: false
+spring:
+  application:
+    name: eureka
+management:
+  server:
+    servlet:
+      context-path: /
+server:
+  port: 8762

@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: product
+  cloud:
+      config:
+        discovery:
+           enabled: true
+           service-id: CONFIG
+        profile: dev
+eureka:
+  client:
+    service-url:
+      defaultZone: http://47.107.151.66:8761/eureka/,http://47.107.151.66:8762/eureka/
+  instance:
+      prefer-ip-address: true
+
+logging:
+  level:
+    org.springframework.cloud.openfeign: debug
+

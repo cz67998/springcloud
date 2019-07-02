@@ -1,0 +1,15 @@
+com\wangzhou\user\util\CookieUtil.class
+com\wangzhou\user\service\impl\UserinfoServiceImpl.class
+com\wangzhou\user\constant\RedisConstant.class
+com\wangzhou\user\enums\RoleEnum.class
+com\wangzhou\user\enums\ResultEnum.class
+com\wangzhou\user\util\JsonUtil.class
+com\wangzhou\user\UserApplication.class
+com\wangzhou\user\util\KeyUtil.class
+com\wangzhou\user\constant\CookieConstant.class
+com\wangzhou\user\VO\ResultVO.class
+com\wangzhou\user\service\UserinfoService.class
+com\wangzhou\user\repository\UserinfoRepository.class
+com\wangzhou\user\dataobject\UserInfo.class
+com\wangzhou\user\util\ResultVOUtil.class
+com\wangzhou\user\controller\LoginController.class
