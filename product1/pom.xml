@@ -12,6 +12,7 @@
 	模型层：model
 	持久层：persistence
 	表示层:web
+	1
 	-->
 	<packaging>pom</packaging>
 
